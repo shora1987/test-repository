@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Allow:/www.google.com
+
+User-agent: Adsbot-Google
+Allow:/https://ads.google.com/home/
+
+User-agent: Porn
+Disallow:/www.pornhub.com
