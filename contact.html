@@ -30,7 +30,7 @@
         <title>The Goods Pool Service, LLC. Contact Form</title>
 
 </head>
-<body>
+<body class="container-fluid w-100">
     <nav class="navbar navbar-expand-lg navbar-light pb-3" id="top-nav">
         <!-- I should work on a button that will be used like a home screen button for users -->
         <div>
@@ -97,22 +97,22 @@
     </div>
     <nav class="navbar navbar-expand navbar-light" id="middle-nav">
         <div class="collapse navbar-collapse justify-content-center">
-            <ul class="navbar-nav" id="middle-nav-menu">
-                <li class="nav-item">
+            <ul class="navbar-nav container d-flex justify-content-center align-items-center row-cols-4" id="middle-nav-menu">
+                <li class="nav-item col-sm-3 col-lg-3 d-flex justify-content-center fs-3">
                     <a class="nav-link" href="index.html">
                     <span>Home</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-sm-3 col-lg-3 d-flex justify-content-center fs-3">
                     <a class="nav-link" href="reviews.html">
                     <span>Reviews</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-sm-3 col-lg-3 d-flex justify-content-center fs-3">
                     <a class="nav-link" href="prices.html">
                     <span>Prices</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-sm-1 col-lg-3 d-flex justify-content-center fs-3">
                     <a class="nav-link" href="contact.html">
-                    <span>Contact Us</span></a>
+                    <span>Contact</span></a>
                 </li>
             </ul>
         </div>
@@ -157,7 +157,7 @@
     </div>
     <div class="container-fluid contact-info table-bordered justify-content-center d-flex">
         <form>
-            <div class="form-group row row-cols-4 pt-2 align-items-center ">
+            <div class="form-group row pt-2 align-items-center ">
                 <div class="col-lg-2 col-sm-12">
                     <label class="form-label d-flex justify-content-center" for="user-first-name">FIRST NAME: </label>
                 </div>
@@ -171,7 +171,7 @@
                     <input type="text" id="user-last-name" class="form-control" required>                       
                 </div>
             </div>
-            <div class="form-group row row-cols-4 pt-2 align-items-center">
+            <div class="form-group row pt-2 align-items-center">
                 <div class="col-lg-2 col-sm-12">
                     <label class="form-label" for="user-address">ADDRESS: </label>
                 </div>
@@ -258,7 +258,7 @@
                     <input type="text" id="user-zip-code" class="form-control" required>                       
                 </div>
             </div>
-            <div class="form-group row row-cols-2 pt-2 align-items-center">
+            <div class="form-group row pt-2 align-items-center">
                 <div class="col-lg-2 col-sm-12">
                     <label class="form-label" for="user-email">EMAIL: </label>
                 </div>
@@ -266,7 +266,7 @@
                     <input type="email" id="user-email" class="form-control" required>                       
                 </div>
             </div>
-            <div class="form-group row row-cols-1 pt-2 align-items-center">
+            <div class="form-group row pt-2 align-items-center">
                 <div class="col-lg-2 col-sm-12">
                     <label for="user-comments">COMMENTS</label>
                 </div>

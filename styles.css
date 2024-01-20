@@ -1,5 +1,7 @@
+body {
+    padding: 0 !important;
+}
 nav {
-    /* outline: 1px solid limegreen; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #top-nav {
@@ -30,13 +32,13 @@ nav {
     font-family: 'Bebas Neue';
 }
 #middle-nav-menu .nav-item {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-bottom: none;
     height: 50px;
-    width: 120px;
+    /* width: 120px; */
 }
 #middle-nav-menu .nav-item span {
     color: white;
