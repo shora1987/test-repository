@@ -299,3 +299,7 @@ nav {
     border-bottom:1px solid #000;
     padding:2px 0 2px 5px;
 }
+
+#popup-alert {
+    right: .5%;
+}

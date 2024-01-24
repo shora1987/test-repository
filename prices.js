@@ -165,7 +165,7 @@ function sendUserInfo() {
   
 const serviceId = 'service_9unwrqa';
 const emailTemplateId = 'template_svjzg3l';
-
+myFunction()
 emailjs.send(serviceId,emailTemplateId, params)
 .then (
   res => {
@@ -174,7 +174,6 @@ emailjs.send(serviceId,emailTemplateId, params)
     document.getElementById('user-email').value = '';
     document.getElementById('user-phone-number').value = '';
     console.log(res);
-    alert('your message has been sent successfully')
   }
 )
 .catch((err) => console.log(err));
@@ -187,8 +186,23 @@ const test = () => {
     alerts.appendChild(text);
   } 
   alert(al);
-
 }
+
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  const popup = document.getElementById("popup-alert");
+  popup.style.visibility = 'visible';
+  let userData = document.getElementById('exampleModalCenter');
+  userData.style.visibility = 'hidden';
+  closeButton = document.getElementById('popup-close-button');
+  closeButton.addEventListener('click', () => {
+    window.location.href = 'index.html'
+    
+  })
+}
+
+
+
 
 
 
